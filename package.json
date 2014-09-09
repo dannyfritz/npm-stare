@@ -1,0 +1,19 @@
+{
+  "name": "npm-stare",
+  "version": "0.1.0",
+  "description": "Stare at (watch) files and directories for changes and then run npm scripts in retaliation.",
+  "main": "index.js",
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danny Fritz",
+  "license": "Apache",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "cross-spawn": "^0.2.3",
+    "gaze": "^0.6.4",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.3"
+  }
+}
