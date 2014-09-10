@@ -33,14 +33,14 @@ Then put all your watch directives in `stare`.
         "bin/"
       ]
     },
-		"test": {
-			"path": "lib/"
-		}
-  },
-	"devDependencies": {
-		"tape": "*",
-		"browseify": "*"
-	}
+    "test": {
+      "path": "lib/"
+    }
+ },
+  "devDependencies": {
+    "tape": "*",
+    "browseify": "*"
+  }
 }
 ```
 
