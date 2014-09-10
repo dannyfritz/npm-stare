@@ -46,7 +46,7 @@ Then put all your watch directives in `stare`.
 
 ## Running
 
-```shell
+```sh
 $ npm run stare
 ```
 
