@@ -1,48 +1,44 @@
 {
-	"name": "npm-stare",
-	"version": "0.1.0",
-	"author": {
-		"name": "Danny Fritz",
-		"email": "dannyfritz@gmail.com"
-	},
-	"description": "Stare at (watch) files and directories for changes and then run npm scripts in retaliation.",
-	"bugs": {
-		"url": "https://github.com/dannyfritz/npm-stare/issues"
-	},
-	"repository": {
-		"type" : "git",
-		"url" : "https://github.com/dannyfritz/npm-stare.git"
+  "name": "npm-stare",
+  "version": "1.0.0",
+  "author": "Danny Fritz",
+  "description": "Stare at (watch) files and directories for changes and then run npm scripts in retaliation.",
+  "bugs": {
+    "url": "https://github.com/dannyfritz/npm-stare/issues"
   },
-	"main": "index.js",
-	"bin": "./bin/cli.js",
-	"files": [
-		"index.js",
-		"bin",
-		"lib"
-	],
-	"scripts": {
-		"stare": "npm-stare",
-		"watch-script": "npm run test-lint",
-		"test-lint": "eslint lib bin"
-	},
-	"stare": {
-		"watch-script": {
-			"path": [
-				"lib/",
-				"bin/"
-			]
-		}
-	},
-	"author": "Danny Fritz",
-	"license": "Apache",
-	"dependencies": {
-		"chalk": "^0.5.1",
-		"chokidar": "^0.8.4",
-		"cross-spawn": "^0.2.3",
-		"lodash": "^2.4.1",
-		"moment": "^2.8.3"
-	},
-	"devDependencies": {
-		"eslint": "^0.7.4"
-	}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannyfritz/npm-stare.git"
+  },
+  "main": "index.js",
+  "bin": "./bin/cli.js",
+  "files": [
+    "index.js",
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "stare": "npm-stare",
+    "watch-script": "npm run test-lint",
+    "test-lint": "eslint lib bin"
+  },
+  "stare": {
+    "watch-script": {
+      "path": [
+        "lib/",
+        "bin/"
+      ]
+    }
+  },
+  "license": "Apache",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "chokidar": "^0.8.4",
+    "cross-spawn": "^0.2.3",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^0.7.4"
+  }
 }
