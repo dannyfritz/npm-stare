@@ -1,6 +1,6 @@
 {
   "name": "npm-stare",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Danny Fritz",
   "description": "Stare at (watch) files and directories for changes and then run npm scripts in retaliation.",
   "bugs": {
