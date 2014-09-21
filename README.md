@@ -36,7 +36,7 @@ Then put all your watch directives in `stare`.
     "test": {
       "path": "lib/"
     }
- },
+  },
   "devDependencies": {
     "tape": "*",
     "browseify": "*"
