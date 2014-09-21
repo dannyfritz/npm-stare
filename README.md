@@ -24,7 +24,7 @@ Then put all your watch directives in `stare`.
   "scripts": {
     "stare": "npm-stare",
     "build": "browserify index.js > app.js",
-		"test": "tape tests"
+    "test": "tape tests"
   },
   "stare": {
     "build": {
