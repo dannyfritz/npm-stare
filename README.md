@@ -2,6 +2,8 @@
 
 Keep an eye on your files and run `npm script` when they change. Configurable in your `package.json`.
 
+[![NPM](https://nodei.co/npm/npm-stare.png?downloads=true&stars=true)](https://nodei.co/npm/npm-stare/)
+
 ## Installation
 
 ### npm
