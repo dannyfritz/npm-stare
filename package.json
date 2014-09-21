@@ -1,9 +1,15 @@
 {
   "name": "npm-stare",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Danny Fritz",
   "description": "Stare at (watch) files and directories for changes and then run npm scripts in retaliation.",
-  "keywords": ["watch", "watchFile", "watcher", "watching", "npm"],
+  "keywords": [
+    "watch",
+    "watchFile",
+    "watcher",
+    "watching",
+    "npm"
+  ],
   "bugs": {
     "url": "https://github.com/dannyfritz/npm-stare/issues"
   },
