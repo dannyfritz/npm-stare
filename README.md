@@ -1,5 +1,7 @@
 # npm-stare
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dannyfritz/npm-stare?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Keep an eye on your files and run `npm script` when they change. Configurable in your `package.json`.
 
 [![NPM](https://nodei.co/npm/npm-stare.png?downloads=true&stars=true)](https://nodei.co/npm/npm-stare/)
